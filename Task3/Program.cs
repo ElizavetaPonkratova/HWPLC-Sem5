@@ -13,7 +13,7 @@ void ArrayRandomNumbers(float[] arr)
 {
     for(int i = 0; i < arr.Length; i++)
     {
-        arr[i] = new Random().Next(0,100);
+        arr[i] = Convert.ToSingle(new Random().Next(0,100));
     }
 }
 
